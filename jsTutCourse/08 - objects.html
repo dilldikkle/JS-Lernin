@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Objects</title>
+</head>
+
+<body>
+
+  <script>
+
+    // objects group multiple values together
+    // properties allow us to access specific values of objects
+    // syntax for objects: curly bracks, values accessed by property, grouped into a 'property-value pair' separated by a comma
+    // dot-notation allows us to access specific values of an object ie product.name
+    // can add properties to object using dot notation ie product.newProperty = true
+
+    // objects help use organize and use multiple values together rather than creating individual variables for EVERYTHING
+
+    const product = {
+      name: 'socks',
+      price: 1090
+    };
+    
+    console.log(product);
+    console.log(product.name);
+    console.log(product.price)
+
+    product.name = 'cotton socks';
+
+    console.log(product);
+
+    product.newProperty = true;
+    console.log(product.newProperty);
+
+    delete product.newProperty;
+    console.log(product.newProperty);
+
+
+
+
+  </script>
+
+</body>

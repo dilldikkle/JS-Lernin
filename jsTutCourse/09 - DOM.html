@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<head>
+  <title>DOM stuff el oh el</title>
+</head>
+
+<body>
+
+  <button>hello</button>
+
+  <button class ="js-button">Second Button</button>
+
+  <script>
+    
+    console.log(document.querySelector('button').innerHTML);
+    document.querySelector('button')
+      .innerHTML = 'changed';
+
+    const buttonElement = document.querySelector('.js-button');
+
+    console.log(buttonElement);
+
+    // starting with a dot means we are doing something with a class
+    // js- prefix helps know that the class is being used in JavaScript
+
+    
+
+
+    
+    /*
+    console.log(document.title);
+    document.title = 'Changed';
+
+    console.log(document.body);
+    // DOM allows HTML inside JavaScript
+    // When HTML element is inside this way it is covnerted to JavaScript object
+
+    console.log(typeof document.body);
+
+    console.log(document.body.innerHTML);
+    document.body.innerHTML = '<button>Good job!</button>';
+    */
+
+
+   /*
+    document.body.innerHTML = 'hello';
+    document.title = 'Good Job';
+   */
+  </script>
+
+</body>
